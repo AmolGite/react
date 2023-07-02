@@ -2134,7 +2134,7 @@ export interface PrimaryButtonProps {
 export const PrimaryButton = (
   props: PrimaryButtonProps & React.ButtonHTMLAttributes<HTMLButtonElement>
 ) => {
-  // do custom buttony stuff
+hello  // do custom buttony stuff
   return <button {...props}> {props.label} </button>;
 };
 ```
